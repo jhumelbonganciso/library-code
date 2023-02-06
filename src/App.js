@@ -50,12 +50,8 @@ function App() {
   }
   
 
-  const testbutton = () => {
-    console.log(library)
-  }
   return (
     <div className="App">
-      <button onClick={() => testbutton()}>test</button>
       <Navbar />
       <Form
         setLibrary={setLibrary}
